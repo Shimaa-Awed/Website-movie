@@ -1,0 +1,63 @@
+.membership{
+    background: url("../../Assets/newsletter_bg.jpg") center/cover no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    overflow: hidden;
+}
+.membership h2{
+    color: #262626;
+    font-size: 30px;
+    font-weight: bold;
+}
+.membership p{
+    color: #171d19;
+    font-size: 14px;
+}
+.membership form{
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 85%;
+    height: 60px;
+    max-width: 100%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 2px 1px 2px 5px;
+}
+.membership form input{
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    color: #171d19;
+    font-size: 17px;
+}
+.membership form button{
+    background-color: #171d19;
+    border: 1px solid #171d19;
+    color: #e4d804;
+    width: 30%;
+    height: 100%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.membership form button:hover{
+    background-color: #e4d804;
+    color: #171d19;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}

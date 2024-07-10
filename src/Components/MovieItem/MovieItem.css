@@ -1,0 +1,58 @@
+.box{
+    max-width: 100%;
+    margin: 20px 0px;
+    height: auto;
+    overflow: hidden;
+}
+.box .img-box img{
+    max-width: 100%;
+    width: 100%;
+    height: 380px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.box .text{
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.box .text .text-header , 
+.box .text .text-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0px;
+} 
+.box .text a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.box .text a:hover{
+    color: #e4d804;
+}
+.box .text .text-header span{
+    color: #e4d804;
+}
+.box .text .text-footer li span{
+    font-size: 13px;
+    margin: 0px 3px;
+}
+.box .text .text-footer span.first{
+    font-size: 10px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.box .text .text-footer span.first::first-letter{
+    text-transform: uppercase;
+}
+.box .text .text-footer li span svg{
+    color: #e4d804;
+    margin-right: 5px;
+}

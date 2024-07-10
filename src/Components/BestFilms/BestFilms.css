@@ -1,0 +1,22 @@
+.bestfilms{
+    background: url("../../Assets/tv_series_bg.jpg") center/cover no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+    overflow: hidden;
+}
+.bestfilms .row:first-of-type{
+    text-align: center;
+    margin: 40px;
+}
+.bestfilms .row:first-of-type span{
+    color: #e4d804;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.bestfilms h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 15px;
+}

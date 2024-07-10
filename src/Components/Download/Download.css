@@ -1,0 +1,118 @@
+.Download{
+    background-color: #1f1e24;
+    width: 100%;
+    height: auto;
+    padding: 120px 0px;
+    overflow: hidden;
+}
+.Download .services-box{
+    position: relative;
+}
+.Download .services-box img{
+    max-width: 100%;
+}
+.Download .services-box a{
+    background: #e4d804;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: #14141d;
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 65px;
+    right: -70px;
+    transform: rotate(90deg);
+    padding: 43px 49px;
+    border-radius: 6px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+@media only screen and (max-width : 992px){
+    .Download .services-box a{
+        right: -15px;
+    }
+}
+@media only screen and (max-width : 768px){
+    .Download .services-box a{
+        right: -50px;
+    }
+}
+.Download span{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #e4e2e2;
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    padding-left: 60px;
+}
+.Download span::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #e4d804;
+    top: 50%;
+    left: 0;
+}
+.Download h2{
+    font-size: 35px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 45px;
+}
+.Download p{
+    color: #bcbcbc;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 30px;
+}
+.Download .serv-item{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.Download .serv-item .icon{
+    width: 100px;
+    height: 90px;
+    line-height: 90px;
+    box-sizing: border-box;
+    border: 2px dotted #e4d804;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+}
+.Download .serv-item .icon:hover{
+    background-color: #e4d804;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+.Download .serv-item .text h4{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.Download .serv-item .text p{
+    font-size: 13px;
+    margin-top: -3px;
+}
+.Download .serv-item:first-of-type{
+    border-bottom: 1px dashed #38373c;
+    padding-bottom: 25px;
+}

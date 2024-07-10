@@ -1,0 +1,131 @@
+nav{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+    margin-top: 25px;
+}
+nav .logo{
+    text-align: center;
+    width: 20%;
+    padding-left: 65px;
+}
+nav .menu {
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+nav .menu ul li{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav .menu ul li:first-of-type a{
+    color: #e4d804;
+}
+nav .menu ul li:hover a{
+    color: #e4d804;
+}
+nav .right-nav{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    margin-top: -7px;
+    padding-left: 15px;
+}
+nav .right-nav .search svg{
+    color: #fff;
+    margin-right: 25px;
+    border-right: 1px solid #ccc;
+    padding-right: 15px;
+}
+nav .right-nav svg{
+    color: #e4d804;
+    margin-top: 17px;
+}
+nav .right-nav select{
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: auto;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 7px 20px 0px 20px;
+}
+nav .right-nav select option{
+    color: #171e28;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+nav .right-nav button:first-of-type{
+    background: #12151e;
+    border: 2px solid #e4d804;
+    width: 130px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+nav .right-nav button:first-of-type:hover{
+    background-color: #e4d804;
+    color: #171e28;
+}
+nav .right-nav button:last-of-type{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    height: 45px;
+    line-height: 45px;
+    display: none;
+}
+nav .right-nav button:last-of-type svg{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 6px;
+}
+@media only screen and (max-width : 992px){
+    nav .menu{
+        display: none;
+    }
+    nav .right-nav{
+        width: 40%;
+        padding-left: 50px;
+    }
+    nav .right-nav button:first-of-type{
+        display: none;
+    }
+    nav .right-nav button:last-of-type{
+        display: block;
+        margin-top: 7px;
+    }
+    nav .logo{
+        text-align: left;
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width : 768px){
+    nav .right-nav .search , 
+    nav .right-nav svg:nth-child(2),
+    nav .right-nav select {
+        display: none;
+    }
+}
