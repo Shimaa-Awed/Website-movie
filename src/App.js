@@ -11,7 +11,7 @@ function App() {
 
   useEffect(()=>{
     fetchmoviesHandler()
-  })
+  },[])
   
   const [movieslist , setmovieslist] = useState([]); 
   const [error , seterror] = useState(null);
@@ -19,7 +19,7 @@ function App() {
   async function fetchmoviesHandler(){
     seterror(null);
     try {
-        const response = await fetch('http://www.omdbapi.com/?s=star wars&apikey=d7d275b8');
+        const response = await fetch('http://www.omdbapi.com/?s=starwars&apikey=d7d275b8');
         if(! response.ok){
           throw new Error ("some thing is wrong");
         }
